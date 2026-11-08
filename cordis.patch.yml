@@ -1,0 +1,8 @@
+# dsh-cost-speed 的组合包层：向 profile 插入一条宿主行。
+#
+# 装好以后，插件面板的行开关会把 `disabled` 覆盖写进 profile 自己的
+# cordis.patch.yml，不需要手改这个文件。行 id 保持稳定；改名会让面板
+# 找不到旧的开关记录。
+- insert:
+    - id: cost-speed
+      name: dsh-cost-speed

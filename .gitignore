@@ -1,0 +1,11 @@
+node_modules/
+*.log
+*.bak
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Local usage data, never part of the repository.
+ledger.json
+history-bill.json
+pricing.json
