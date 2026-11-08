@@ -1,6 +1,6 @@
 {
   "name": "dsh-cost-speed",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "DeepSeek Harness 计费与速度面板：按真实 BPE 估算 token 成本，显示流式 TPS、首字延迟与上下文占用，支持时/日/周/月四视图；Local cost and speed monitor for DSH with a user-editable price table.",
   "license": "MIT",
   "author": "Unstivl",
@@ -25,7 +25,7 @@
     "lib/tokenizer",
     "cordis.patch.yml",
     "README.md",
-    "README.zh.md",
+    "README.en.md",
     "SECURITY.md",
     "CHANGELOG.md",
     "THIRD_PARTY_NOTICES.md"

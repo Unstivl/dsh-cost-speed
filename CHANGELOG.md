@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.2.1 - 2026-11-08
+
+- Make the Chinese README the default page (README.md) and move the English one to README.en.md; both link to each other.
+- Add a Credits section naming the project this package ports from, next to the existing THIRD_PARTY_NOTICES.md.
+
 ## 0.2.0 - 2026-10-25
 
 - Package the plugin as a DSH bundle (`dsh.bundle.patch`) so the plugin panel can install it, show its card and toggle its row.

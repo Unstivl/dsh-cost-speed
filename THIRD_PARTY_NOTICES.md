@@ -5,6 +5,7 @@ This package contains code and data ported from the following project.
 -------------------------------------------------------------------------------
 dsh-live-token-stats
 https://github.com/better-er/dsh-live-token-stats
+License text: https://github.com/better-er/dsh-live-token-stats/blob/main/LICENSE
 
 Copyright (c) 2026 betterer
 Licensed under the MIT License, reproduced in full below.
@@ -25,6 +26,9 @@ upstream token id for token id on 263,730 characters of real session text.
 
 The live throughput tracker in lib/index.js also derives from upstream's
 src/tracker.ts; the density estimator it replaced is gone.
+
+The vocabulary in bpe-data.json is the DeepSeek V4 tokenizer table that upstream
+carries in its own bundle; it originates from DeepSeek's official tokenizer.
 
 -------------------------------------------------------------------------------
 
